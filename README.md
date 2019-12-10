@@ -31,6 +31,12 @@ Dentro del directorio monitorizacionONOS_ELK ejecutar el script para iniciar la 
 ```
 sudo ./iniciar_SDN_y_ELK.sh
 ```
+Luego de que se ha iniciado correctamente el escenario, se puede acceder a las interfaces gráficas a través de las siguientes direcciones:
+* GUI de ONOS: [http://localhost:8181/onos/ui/login.html](http://localhost:8181/onos/ui/login.html) - El usuario y contraseña por defecto es **onos/rocks**
+* GUI de Kibana: [http://localhost:5601](http://localhost:5601)
+
+Para acceder a ONOS mediante la terminal la contraseña es **karaf**
+
 ## Exportar el dashboard a Kibana
 Es importante tener en cuenta que dentro del fichero **statistic_onos.conf** el índex especificado se llama **statistics_onos2**
 Ahora, si no se desean crear visualizaciones individuales y luego agregarlas a un dashboard, se puede hacer uso del dashboard de muestra proporcionado en este proyecto al exportar a Kibana con la ejcuciòn del script:
