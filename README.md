@@ -5,7 +5,7 @@ herramientas de ELK se procesa, almacena y visualiza el comportamiento, estadís
 con el controlador ONOS que cumplen con el protocolo OpenFlow. Además, se hace uso de la API del controlador ONOS para obtener las estadísticas de la SDN.
 
 <center>
-  <src="simulacion_monitorizacion_SDN_ONOS_ELK.gif" width="600">
+  <img src="simulacion_monitorizacion_SDN_ONOS_ELK.gif" width="600">
 </center>
 
 ## Ficheros
