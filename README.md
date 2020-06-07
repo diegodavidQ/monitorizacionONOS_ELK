@@ -4,6 +4,10 @@ El sistema que se analiza y monitoriza es un controlador SDN. En principio se ob
 herramientas de ELK se procesa, almacena y visualiza el comportamiento, estadísticas de la red. Este proyecto se considera como una solución para la implementación SDN
 con el controlador ONOS que cumplen con el protocolo OpenFlow. Además, se hace uso de la API del controlador ONOS para obtener las estadísticas de la SDN.
 
+<center>
+  <src="simulacion_monitorizacion_SDN_ONOS_ELK.gif" width="600">
+</center>
+
 ## Ficheros
 
 El repositorio consta de tres scripts ejecutables:
